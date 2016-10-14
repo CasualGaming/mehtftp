@@ -3,4 +3,4 @@ services:
     mehtftp:
         build: .
         ports:
-            - "11169:69/udp"
+            - "69:69/udp"
